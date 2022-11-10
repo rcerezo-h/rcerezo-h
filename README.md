@@ -6,3 +6,5 @@ One of the sectors in which I would like to put my skills into practice is the c
 making me develop a special interest in this profession, as I really enjoy being able to help others.
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=rcerezo-h)](https://github.com/anuraghazra/github-readme-stats)
+
+file:///C:/Users/tmt-1/Desktop/ex03/card.html
