@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(5, 0, 60);
+    align-items: center;
+}
+ 
+.card{
+    width: 20em;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    border-radius: 1em;
+    text-align: center;
+    font-family: 'Open Sans Condensed', 'Times New Roman';
+    font-size: 1.1em;
+    border-style: solid;
+    border-color:  rgb(200, 152, 28);
+}
+ 
+.user-image{
+    padding: 3em 0;
+    background-image: linear-gradient(70deg,#a7b61e,#e61313);
+    border-style: solid;
+    border-color: rgb(150, 110, 0)
+}
+ 
+.user-image img{
+    width: 12em;
+    height: 12em;
+    border-radius: 50%;
+    box-shadow:  0 0.6em 1.8em ;
+    object-fit: cover;
+}
+ 
+.content{
+    padding: 2.2em;
+    margin-bottom: 0.5em;
+}
+
+
+.name{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color:whitesmoke;
+    text-shadow: 1px 1px 1px gold;
+    margin-bottom: 0.5em;
+}
+ 
+.status{
+    font-size: 1em;
+    color: whitesmoke;
+}
+
+.details{
+    font-size: 1em;
+    color:whitesmoke;
+    margin-bottom: 1.5em;
+}
+
+.icons{
+    margin-bottom: 1.5em;
+}
+
+.header{
+    color:whitesmoke;
+    font-style: italic;
+    margin-top: 0.75em;
+    margin-bottom: 0.5em;
+    text-shadow: 1px 1px 3px gold;
+}
+
+button{
+    background-color: black;
+    font-size: 25px;
+    border-radius: 5px;
+    color:whitesmoke;
+    cursor:pointer;
+    margin-bottom: 0.75em;
+}
+ 
+a{
+    text-decoration: none;
+    color: #565656;
+    transition: all 0.3s;
+    font-size: 2em;
+    margin-right: 1.2em;
+}
+ 
+a:last-child{
+    margin: 0;
+}
